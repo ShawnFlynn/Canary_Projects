@@ -1,0 +1,6 @@
+<resources>
+	<string name="app_name">Jetpack</string>
+	<string name="textView">Hello, Jetpack!</string>
+	<string name="timeView">Today</string>
+	<string name="dateFormat">dd/MM/yyyy HH:mm:ss</string>
+</resources>
