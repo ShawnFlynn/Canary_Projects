@@ -1,16 +1,17 @@
 package com.smf.androidjetpack
 
+import com.smf.androidjetpack.ui.start.StartFragment
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.smf.androidjetpack.ui.start.StartFragment
+
 
 class StartActivity : AppCompatActivity() {
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 
-		Log.d("StartActivity", "onCreate()")
+		Log.d(getString(R.string.StartActivity), getString(R.string.onCreate))
 
 		setContentView(R.layout.start_activity)
 		if (savedInstanceState == null) {
@@ -18,6 +19,7 @@ class StartActivity : AppCompatActivity() {
 								  .replace(R.id.container, StartFragment.newInstance())
 								  .commitNow()
 		}
-	}
+
+	}	// onCreate()
 
 }

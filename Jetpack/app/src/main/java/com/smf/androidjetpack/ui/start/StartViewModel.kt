@@ -1,26 +1,36 @@
 package com.smf.androidjetpack.ui.start
 
 import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 
 class StartViewModel : ViewModel() {
 
 	// Final member
-	private val _data = MutableLiveData<String>()
+	private val TVtext = MutableLiveData<String>()
 	init {
-		// TODO - get string from striings.xml
-		_data.value = "Hello, Jetpack!"
+		// TODO - get string from strings.xml
+		TVtext.value = "Hello, Jetpack!"
 	}
-	val data: LiveData<String>
-		get() = _data
+
+	fun getTVtext() = TVtext.value
+
 
 	// Variable member
-	private var _current = MutableLiveData<String>()
-	init {
-		// TODO - get string from striings.xml
-		_current.value = "Today"
+	private var currentTime = MutableLiveData<String>()
+
+	/* Called on app launch */
+	fun initNetworkRequest() {
+		/* expensive operation, e.g. network request */
+		// TODO - get string from strings.xml
+		currentTime.value = "Today"
 	}
-	var current: MutableLiveData<String> = MutableLiveData()
-		get() = _current
-}
+
+	// Getter
+	fun getCurrentTime() = currentTime
+
+	// Setter
+	fun setCurrentTime(timeValue: String)  {
+		currentTime.value = timeValue
+	}
+
+}	// StartViewModel
