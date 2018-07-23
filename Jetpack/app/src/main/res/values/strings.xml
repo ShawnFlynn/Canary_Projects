@@ -2,7 +2,7 @@
 	<string name="app_name">Jetpack</string>
 	<string name="textView">Hello, Jetpack!</string>
 	<string name="timeView">Today</string>
-	<string name="dateFormat">dd/MM/yyyy HH:mm:ss</string>
+	<string name="dateFormat">MM/dd/yyyy HH:mm:ss</string>
 
 	<string name="StartActivity">StartActivity</string>
 	<string name="StartFragment">StartFragment</string>
