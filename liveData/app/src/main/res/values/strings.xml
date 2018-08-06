@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">liveData</string>
+	<string name="textView">Jetpack - liveData!</string>
+	<string name="timeView">Today</string>
+	<string name="dateFormat">MM/dd/yyyy HH:mm:ss</string>
+
+	<string name="StartActivity">StartActivity</string>
+	<string name="StartFragment">StartFragment</string>
+	<string name="onCreate">onCreate()</string>
+	<string name="onCreateView">onCreateView()</string>
+	<string name="onActivityCreated">onActivityCreated()</string>
+</resources>
