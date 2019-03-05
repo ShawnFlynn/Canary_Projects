@@ -24,8 +24,8 @@ ext {
 }
 
 buildscript {
-    ext.kotlinVersion = '1.3.11'
-    ext.gradlePluginVersion = '3.5.0-alpha03'
+    ext.kotlinVersion = '1.3.21'
+    ext.gradlePluginVersion = '3.5.0-alpha06'
     repositories {
         jcenter()
         google()
