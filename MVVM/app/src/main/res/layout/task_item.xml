@@ -21,11 +21,11 @@
 
         <variable
             name="task"
-            type="com.example.android.architecture.blueprints.todoapp.data.Task" />
+            type="com.smf.mvvm.data.Task" />
 
         <variable
             name="listener"
-            type="com.example.android.architecture.blueprints.todoapp.tasks.TaskItemUserActionsListener" />
+            type="com.smf.mvvm.tasks.TaskItemUserActionsListener" />
     </data>
 
     <LinearLayout
