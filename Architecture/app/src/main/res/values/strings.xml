@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">Lifecycle codelab</string>
+    <string name="app_name">Architecture</string>
     <string name="seconds">%d seconds elapsed</string>
     <string name="location">Location</string>
 </resources>

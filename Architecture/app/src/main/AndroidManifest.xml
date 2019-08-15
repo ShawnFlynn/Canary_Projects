@@ -13,8 +13,10 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.codelabs.lifecycle">
+<manifest
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smf.architecture">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -27,42 +29,42 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.android.lifecycles.step1.ChronoActivity1">
+        <activity android:name=".step1.ChronoActivity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifecycles.step2.ChronoActivity2">
+        <activity android:name="com.smf.architecture.step2.ChronoActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifecycles.step3.ChronoActivity3">
+        <activity android:name="com.smf.architecture.step3.ChronoActivity3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifecycles.step3_solution.ChronoActivity3">
+        <activity android:name="com.smf.architecture.step3_solution.ChronoActivity3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifecycles.step4_solution.LocationActivity">
+        <activity android:name="com.smf.architecture.step4_solution.LocationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifecycles.step4.LocationActivity">
+        <activity android:name="com.smf.architecture.step4.LocationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifecycles.step5.Activity_step5">
+        <activity android:name="com.smf.architecture.step5.Activity_step5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lifecycles.step5_solution.Activity_step5">
+        <activity android:name="com.smf.architecture.step5_solution.Activity_step5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
