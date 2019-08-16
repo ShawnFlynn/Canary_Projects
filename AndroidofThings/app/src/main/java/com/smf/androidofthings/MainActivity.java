@@ -1,4 +1,4 @@
-package com.aot.androidofthings;
+package com.smf.androidofthings;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

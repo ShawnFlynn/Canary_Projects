@@ -1,4 +1,4 @@
-package com.aot.androidofthings;
+package com.smf.androidofthings;
 
 import org.junit.Test;
 
