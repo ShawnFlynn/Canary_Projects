@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-		  package="com.smf.androidthings">
+<manifest
+
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.smf.androidthings">
 
 	<application>
-		<uses-library android:name="com.google.android.things"/>
+		<uses-library android:name="Android Things"/>
 
 		<activity android:name=".HomeActivity">
 			<intent-filter>
