@@ -14,17 +14,19 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.androidthings.myproject">
+<manifest
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smf.attemplate">
 
     <application
         android:allowBackup="true"
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="@string/app_name">
 
-        <uses-library android:name="com.google.android.things"/>
+        <uses-library android:name="AT Template"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.smf.attemplate.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
