@@ -1,4 +1,4 @@
-package com.example.api23permissions;
+package com.smf.apipermissions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,7 +62,7 @@ public class MainActivity extends LifecycleLoggingActivity {
 				for (int i = 0; i < requestedPermissions.length; i++) {
 
 					int hasPermission = ActivityCompat.checkSelfPermission(mContext,
-							requestedPermissions[i]); 
+							requestedPermissions[i]);
 
 					// Loop through non-granted permissions
 					if (hasPermission != PackageManager.PERMISSION_GRANTED) {

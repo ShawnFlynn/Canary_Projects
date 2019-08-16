@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">API23 Permissions</string>
+    <string name="app_name">API Permissions</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_lifecycle_logging">LifecycleLoggingActivity</string>
+    <string name="title_activity_lifecycle_logging">Lifecycle Logging Activity</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.example.api23permissions;
+package com.smf.apipermissions;
 
 import android.app.Activity;
 import android.os.Bundle;
