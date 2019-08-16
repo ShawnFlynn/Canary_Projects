@@ -1,4 +1,4 @@
-package info.androidhive.materialtabs.fragments;
+package com.smf.materialtabs_orig.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,12 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import info.androidhive.materialtabs.R;
+import com.smf.materialtabs_orig.R;
 
 
-public class TwoFragment extends Fragment{
+public class TenFragment extends Fragment{
 
-    public TwoFragment() {
+    public TenFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class TwoFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_two, container, false);
+        return inflater.inflate(R.layout.fragment_ten, container, false);
     }
 
 }

@@ -1,4 +1,4 @@
-package info.androidhive.materialtabs.activity;
+package com.smf.materialtabs_orig.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -12,9 +12,9 @@ import android.support.v7.widget.Toolbar;
 import java.util.ArrayList;
 import java.util.List;
 
-import info.androidhive.materialtabs.R;
-import info.androidhive.materialtabs.fragments.CurrentFragment;
-import info.androidhive.materialtabs.fragments.SavedFragment;
+import com.smf.materialtabs_orig.R;
+import com.smf.materialtabs_orig.fragments.CurrentFragment;
+import com.smf.materialtabs_orig.fragments.SavedFragment;
 
 public class TSSGTabsActivity extends AppCompatActivity {
 

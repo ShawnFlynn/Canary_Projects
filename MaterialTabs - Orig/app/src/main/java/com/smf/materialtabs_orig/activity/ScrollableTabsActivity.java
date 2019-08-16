@@ -1,4 +1,4 @@
-package info.androidhive.materialtabs.activity;
+package com.smf.materialtabs_orig.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -12,17 +12,17 @@ import android.support.v7.widget.Toolbar;
 import java.util.ArrayList;
 import java.util.List;
 
-import info.androidhive.materialtabs.R;
-import info.androidhive.materialtabs.fragments.EightFragment;
-import info.androidhive.materialtabs.fragments.FiveFragment;
-import info.androidhive.materialtabs.fragments.FourFragment;
-import info.androidhive.materialtabs.fragments.NineFragment;
-import info.androidhive.materialtabs.fragments.OneFragment;
-import info.androidhive.materialtabs.fragments.SevenFragment;
-import info.androidhive.materialtabs.fragments.SixFragment;
-import info.androidhive.materialtabs.fragments.TenFragment;
-import info.androidhive.materialtabs.fragments.ThreeFragment;
-import info.androidhive.materialtabs.fragments.TwoFragment;
+import com.smf.materialtabs_orig.R;
+import com.smf.materialtabs_orig.fragments.EightFragment;
+import com.smf.materialtabs_orig.fragments.FiveFragment;
+import com.smf.materialtabs_orig.fragments.FourFragment;
+import com.smf.materialtabs_orig.fragments.NineFragment;
+import com.smf.materialtabs_orig.fragments.OneFragment;
+import com.smf.materialtabs_orig.fragments.SevenFragment;
+import com.smf.materialtabs_orig.fragments.SixFragment;
+import com.smf.materialtabs_orig.fragments.TenFragment;
+import com.smf.materialtabs_orig.fragments.ThreeFragment;
+import com.smf.materialtabs_orig.fragments.TwoFragment;
 
 public class ScrollableTabsActivity extends AppCompatActivity {
 
