@@ -1,4 +1,4 @@
-package info.androidhive.materialtabs;
+package com.smf.materialtabs_constraint;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

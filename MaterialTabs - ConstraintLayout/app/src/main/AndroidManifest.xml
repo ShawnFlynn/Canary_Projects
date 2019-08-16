@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="info.androidhive.materialtabs" >
+<manifest
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smf.materialtabs_constraint" >
 
     <application
         android:allowBackup="true"
@@ -34,17 +36,17 @@
         <activity
             android:name=".activity.IconTextTabsActivity"
             android:label="@string/title_activity_icon_text_tabs"
-            android:parentActivityName=".activity.MainActivity" >
+            android:parentActivityName="com.smf.materialtabs_constraint.activity.MainActivity" >
         </activity>
         <activity
-            android:name=".activity.IconTabsActivity"
+            android:name="com.smf.materialtabs_constraint.activity.IconTabsActivity"
             android:label="@string/title_activity_icon_tabs"
-            android:parentActivityName=".activity.MainActivity" >
+            android:parentActivityName="com.smf.materialtabs_constraint.activity.MainActivity" >
         </activity>
         <activity
-            android:name=".activity.CustomViewIconTextTabsActivity"
+            android:name="com.smf.materialtabs_constraint.activity.CustomViewIconTextTabsActivity"
             android:label="@string/title_activity_custom_view_icon_text_tabs"
-            android:parentActivityName=".activity.MainActivity" >
+            android:parentActivityName="com.smf.materialtabs_constraint.activity.MainActivity" >
         </activity>
     </application>
 

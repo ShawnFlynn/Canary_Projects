@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.androidhive.materialtabs.fragments.ListFragment"
+    tools:context="com.smf.materialtabs_constraint.fragments.ListFragment"
     android:id="@+id/constraintLayout12">
 
     <android.support.v7.widget.RecyclerView

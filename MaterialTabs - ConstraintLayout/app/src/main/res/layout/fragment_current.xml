@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.androidhive.materialtabs.fragments.CurrentFragment"
+    tools:context="com.smf.materialtabs_constraint.fragments.CurrentFragment"
     android:id="@+id/constraintLayout8">
 
     <TextView
