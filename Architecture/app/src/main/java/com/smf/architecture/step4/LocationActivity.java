@@ -28,7 +28,8 @@ import android.widget.Toast;
 
 import android.arch.lifecycle.LifecycleActivity;
 
-import com.example.android.codelabs.lifecycle.R;
+import com.smf.architecture.R;
+//import com.example.android.codelabs.lifecycle.R;
 
 public class LocationActivity extends LifecycleActivity {
 

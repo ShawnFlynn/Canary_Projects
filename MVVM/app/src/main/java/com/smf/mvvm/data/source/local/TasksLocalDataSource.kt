@@ -15,7 +15,7 @@
  */
 package com.smf.mvvm.data.source.local
 
-import android.support.annotation.VisibleForTesting
+import androidx.annotation.VisibleForTesting
 import com.smf.mvvm.data.Task
 import com.smf.mvvm.data.source.TasksDataSource
 import com.smf.mvvm.util.AppExecutors

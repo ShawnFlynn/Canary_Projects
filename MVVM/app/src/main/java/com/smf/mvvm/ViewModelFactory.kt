@@ -17,10 +17,11 @@ package com.smf.mvvm
 
 import android.annotation.SuppressLint
 import android.app.Application
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
-import android.support.annotation.VisibleForTesting
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.annotation.VisibleForTesting
 import com.example.android.architecture.blueprints.todoapp.Injection
+
 
 import com.smf.mvvm.addedittask.AddEditTaskViewModel
 import com.smf.mvvm.data.source.TasksRepository

@@ -22,7 +22,9 @@ import android.widget.Chronometer;
 
 import android.arch.lifecycle.LifecycleActivity;
 import android.arch.lifecycle.ViewModelProviders;
-import com.example.android.codelabs.lifecycle.R;
+
+import com.smf.architecture.R;
+//import com.example.android.codelabs.lifecycle.R;
 
 public class ChronoActivity2 extends LifecycleActivity {
 

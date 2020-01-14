@@ -15,9 +15,9 @@
  */
 package com.smf.mvvm.addedittask
 
-import android.arch.lifecycle.Observer
+import androidx.lifecycle.Observer
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.example.android.architecture.blueprints.todoapp.R
 import com.smf.mvvm.util.ADD_EDIT_RESULT_OK
 import com.smf.mvvm.util.obtainViewModel

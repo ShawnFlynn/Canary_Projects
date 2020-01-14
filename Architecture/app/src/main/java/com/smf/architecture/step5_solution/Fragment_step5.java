@@ -29,7 +29,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 
-import com.example.android.codelabs.lifecycle.R;
+import com.smf.architecture.R;
+//import com.example.android.codelabs.lifecycle.R;
+
 import com.smf.architecture.step5.SeekBarViewModel;
 
 /**

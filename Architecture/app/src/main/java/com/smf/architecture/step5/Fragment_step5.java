@@ -24,7 +24,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 
-import com.example.android.codelabs.lifecycle.R;
+import com.smf.architecture.R;
+//import com.example.android.codelabs.lifecycle.R;
 
 /**
  * Shows a SeekBar that should be synced with a value in a ViewModel.

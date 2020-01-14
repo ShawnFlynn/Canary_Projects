@@ -24,7 +24,9 @@ import android.widget.TextView;
 import android.arch.lifecycle.LifecycleActivity;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
-import com.example.android.codelabs.lifecycle.R;
+
+import com.smf.architecture.R;
+//import com.example.android.codelabs.lifecycle.R;
 
 public class ChronoActivity3 extends LifecycleActivity {
 

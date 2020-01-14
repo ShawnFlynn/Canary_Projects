@@ -1,7 +1,7 @@
 package com.smf.liveData
 
 import com.smf.liveData.ui.start.StartFragment
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 

@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.google.android.things.pio.PeripheralManagerService;
+import com.google.android.things.pio.PeripheralManager;
 
 /**
  * Skeleton of an Android Things activity.
@@ -34,7 +34,8 @@ public class HomeActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
 
-		PeripheralManagerService service = new PeripheralManagerService();
+		PeripheralManager service = PeripheralManager.getInstance();
+//		PeripheralManagerService service = new PeripheralManagerService();
 		Log.d(TAG, "Available GPIO: " + service.getGpioList());
 	}
 }

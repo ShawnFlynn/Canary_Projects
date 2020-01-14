@@ -15,10 +15,10 @@
  */
 package com.smf.mvvm.taskdetail
 
-import android.arch.lifecycle.Observer
+import androidx.lifecycle.Observer
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.example.android.architecture.blueprints.todoapp.R
 import com.smf.mvvm.addedittask.AddEditTaskActivity
 import com.smf.mvvm.addedittask.AddEditTaskFragment

@@ -15,7 +15,7 @@
  */
 package com.smf.mvvm.tasks
 
-import android.databinding.BindingAdapter
+import androidx.databinding.BindingAdapter
 import android.widget.ListView
 
 import com.smf.mvvm.data.Task

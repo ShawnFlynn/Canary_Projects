@@ -1,7 +1,7 @@
 package com.smf.liveData.ui.start
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.MutableLiveData
 
 class StartViewModel : ViewModel() {
 

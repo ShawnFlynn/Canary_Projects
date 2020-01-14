@@ -19,7 +19,9 @@ package com.smf.architecture.step5;
 import android.os.Bundle;
 
 import android.arch.lifecycle.LifecycleActivity;
-import com.example.android.codelabs.lifecycle.R;
+
+import com.smf.architecture.R;
+//import com.example.android.codelabs.lifecycle.R;
 
 /**
  * Shows two {@link Fragment_step5} fragments.
