@@ -65,10 +65,10 @@ class ViewModelFactory private constructor(
         fun getInstance(application: Application) =
                 INSTANCE
                         ?: synchronized(ViewModelFactory::class.java) {
-                    INSTANCE
-                            ?: ViewModelFactory(application,
-                                    Injection.provideTasksRepository(application.applicationContext))
-                            .also { INSTANCE = it }
+                        INSTANCE
+                                ?: ViewModelFactory(application,
+                                   Injection.provideTasksRepository(application.applicationContext))
+                                .also { INSTANCE = it }
                 }
 
 
