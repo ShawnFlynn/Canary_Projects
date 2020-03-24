@@ -37,8 +37,8 @@ import com.smf.mvvm.data.source.TasksRepository
  */
 class AddEditTaskViewModel(
         context: Application,
-        private val tasksRepository: TasksRepository
-) : AndroidViewModel(context), TasksDataSource.GetTaskCallback {
+        private val tasksRepository: TasksRepository) : AndroidViewModel(context),
+                                                        TasksDataSource.GetTaskCallback {
 
     val title = ObservableField<String>()
     val description = ObservableField<String>()
