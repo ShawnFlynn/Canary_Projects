@@ -7,31 +7,31 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.example.android.architecture.blueprints.todomvvmlive"
+        applicationId 'com.smf.mvvm'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
     android {
         sourceSets {
             String sharedTestDir = 'src/sharedTest/java'
+/*
             test {
                 java.srcDir sharedTestDir
             }
             androidTest {
                 java.srcDir sharedTestDir
             }
+ */
         }
     }
 
     buildTypes {
         debug {
             minifyEnabled true
-            // Uses new built-in shrinker http://tools.android.com/tech-docs/new-build-system/built-in-shrinker
         }
 
         release {
@@ -43,10 +43,10 @@ android {
 
     // If you need to add more flavors, consider using flavor dimensions.
     productFlavors {
-        mock {
-            applicationIdSuffix = ".mock"
-            dimension "default"
-        }
+//        mock {
+//            applicationIdSuffix = ".mock"
+//            dimension "default"
+//        }
         prod {
             dimension "default"
         }
@@ -54,8 +54,9 @@ android {
 
     // Remove mockRelease as it's not needed.
     android.variantFilter { variant ->
-        if (variant.buildType.name == 'release'
-                && variant.flavors[0].name == 'mock') {
+        if ((variant.buildType.name == 'release' ||
+             variant.buildType.name == 'debug')  &&
+             variant.flavors[0].name == 'mock') {
             variant.ignore = true
         }
     }
@@ -75,6 +76,10 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    configurations.all() {
+        resolutionStrategy.force "org.antlr:antlr4-runtime:4.5.3"
+        resolutionStrategy.force "org.antlr:antlr4-tool:4.5.3"
+    }
 }
 
 /*
@@ -82,6 +87,7 @@ android {
  all versions in a single place. This improves readability and helps managing project complexity.
  */
 dependencies {
+
     // App's dependencies, including test
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
@@ -93,7 +99,7 @@ dependencies {
     implementation "com.google.code.findbugs:jsr305:$rootProject.findBugsVersion"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$rootProject.kotlin_version"
 
-    kapt 'androidx.room:room-compiler:2.2.5'
+//    kapt 'androidx.room:room-compiler:2.2.5'
 
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 
@@ -118,7 +124,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
     androidTestImplementation 'androidx.test.espresso.idling:idling-concurrent:3.2.0'
-    implementation 'androidx.test.espresso:espresso-idling-resource:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-idling-resource:3.2.0'
+//    implementation 'androidx.test.espresso:espresso-idling-resource:3.2.0'
 
     // Resolve conflicts between main and test APK:
     androidTestImplementation 'androidx.annotation:annotation:1.1.0'
