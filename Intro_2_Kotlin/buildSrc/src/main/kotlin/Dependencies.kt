@@ -1,6 +1,6 @@
 
 const val KOTLIN_VERSION = "1.3.72"
-const val GRADLE_PLUGIN  = "4.2.0-alpha01"
+const val GRADLE_PLUGIN  = "4.2.0-alpha02"
 
 object BuildPlugins {
 	const val androidGradlePlugin = "com.android.tools.build:gradle:$GRADLE_PLUGIN"
