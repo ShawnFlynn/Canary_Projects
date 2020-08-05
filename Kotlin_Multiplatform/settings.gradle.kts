@@ -10,3 +10,6 @@ pluginManagement {
 }
 rootProject.name = "Kotlin_Multiplatform"
 
+include(":android")
+include(":kotlin_mpp")
+include(":Kotlin_mpp")

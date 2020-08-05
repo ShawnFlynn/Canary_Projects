@@ -1,5 +1,6 @@
+
 plugins {
-    kotlin("multiplatform") version "1.4-M3"
+    kotlin("multiplatform") version "1.4-rc"
 }
 group = "me.shawn"
 version = "1.0-SNAPSHOT"
@@ -8,6 +9,12 @@ repositories {
     mavenCentral()
     maven {
         url = uri("https://dl.bintray.com/kotlin/kotlin-eap")
+    }
+}
+buildscript {
+//    val kotlinVersion by extra("1.4.0-rc")
+    dependencies {
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
     }
 }
 
