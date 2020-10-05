@@ -1,6 +1,6 @@
 const val kotlinVersion: String = "1.4.10"
 const val appCompat: String = "28.0.0"
-const val constraintLayout: String = "1.1.3"
+const val constraintLayout: String = "2.0.0"
 const val junitVersion: String = "4.+"
 const val testRunnerVersion: String = "1.0.2"
 const val espressoVersion: String = "3.0.2"

@@ -2,7 +2,7 @@
 
 buildscript {
 
-    ext.gradle_version = '4.2.0-alpha12'
+    ext.gradle_version = '4.2.0-alpha13'
 
     dependencies {
         classpath "com.android.tools.build:gradle:${gradle_version}"
