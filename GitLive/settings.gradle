@@ -1,0 +1,2 @@
+rootProject.name = "GitLive"
+include ':app'
