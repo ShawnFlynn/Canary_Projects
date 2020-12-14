@@ -13,7 +13,7 @@ dependencies {
 android {
     compileSdkVersion(30)
     defaultConfig {
-        applicationId = "com.smf.kotlin_mpm.androidMPM"
+        applicationId = "com.smf.kotlin_mpm"
         minSdkVersion(24)
         targetSdkVersion(30)
         versionCode = 1
