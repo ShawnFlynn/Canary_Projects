@@ -17,7 +17,7 @@ public class MainActivity extends LifecycleLoggingActivity {
 	static final int REQUEST_PERMISSIONS = 121;
 
 	private int permissionCount = 0;
-	private List<String> permissions = new ArrayList<String>();
+	private final List<String> permissions = new ArrayList<>();
 
 	private Activity mActivity;
 	private Context  mContext;
@@ -59,21 +59,19 @@ public class MainActivity extends LifecycleLoggingActivity {
 
 			// Generate a list of permissions not-granted
 			if(requestedPermissions != null) {
-				for (int i = 0; i < requestedPermissions.length; i++) {
-
-					int hasPermission = ActivityCompat.checkSelfPermission(mContext,
-							requestedPermissions[i]);
+				for (String requestedPermission : requestedPermissions) {
 
 					// Loop through non-granted permissions
-					if (hasPermission != PackageManager.PERMISSION_GRANTED) {
+					if(ActivityCompat.checkSelfPermission(mContext,requestedPermission)
+							!= PackageManager.PERMISSION_GRANTED) {
 
 						// Add to the list
-						permissions.add(requestedPermissions[i]);
+						permissions.add(requestedPermission);
 						permissionCount++;
 
-						Log.i(TAG, requestedPermissions[i] + " to be requested");
+						Log.i(TAG, requestedPermission + " to be requested");
 					} else {
-						Log.i(TAG, requestedPermissions[i] + " already granted");
+						Log.i(TAG, requestedPermission + " already granted");
 					}
 				}
 			}
