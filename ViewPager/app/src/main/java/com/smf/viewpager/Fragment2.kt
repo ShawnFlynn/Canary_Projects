@@ -8,14 +8,14 @@ import androidx.fragment.app.Fragment
 
 // Here ":" symbol is indicate that SignupFragment
 // is child class of Fragment Class
-class SignupFragment : Fragment() {
+class Fragment2 : Fragment() {
 	override fun onCreateView(
 		inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
 	): View? {
 		return inflater.inflate(
-			R.layout.layout_signup, container, false
+			R.layout.layout_fragment2, container, false
 		)
 	}
-	// Here "layout_signup" is a name of layout file
+	// Here "layout_fragment2" is a name of layout file
 	// created for SignFragment
 }
