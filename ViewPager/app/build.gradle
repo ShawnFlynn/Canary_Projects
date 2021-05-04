@@ -1,8 +1,8 @@
 plugins {
     id 'com.android.application'
-//    id 'org.jetbrains.kotlin.jvm'
     id "org.jetbrains.kotlin.android"
 }
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
@@ -43,5 +43,11 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.4'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.4'
+    implementation 'org.jetbrains:annotations:15.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
+}
+repositories {
+    mavenCentral()
 }
