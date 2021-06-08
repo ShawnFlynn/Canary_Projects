@@ -3,7 +3,7 @@
 buildscript {
 
     ext.gradle_version = '7.1.0-alpha02'
-    ext.kotlin_version = '1.5.10'               // Works with 203-1.5.10-release-891-AS7717.8
+    ext.kotlin_version = '1.5.10'               // Works with "203-1.5.10-release-891-AS7717.8"
 
     repositories {
         google()
