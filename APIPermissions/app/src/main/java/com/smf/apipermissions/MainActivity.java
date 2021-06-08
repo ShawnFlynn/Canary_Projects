@@ -1,17 +1,15 @@
 package com.smf.apipermissions;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends LifecycleLoggingActivity {
 
@@ -22,6 +20,7 @@ public class MainActivity extends LifecycleLoggingActivity {
 
 	private Activity mActivity;
 	private Context  mContext;
+	private Context ActivityCompat;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
